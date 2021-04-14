@@ -1,26 +1,24 @@
-¿é¤Jªk¦w¸Ë¬yµ{
-·§Äı(Activities)¡÷¦a°Ï¤Î»y¨¥(Region & Language)¡÷·s¼W»y¨¥
+è¼¸å…¥æ³•å®‰è£æµç¨‹
+æ¦‚è¦½(Activities)â†’åœ°å€åŠèªè¨€(Region & Language)â†’æ–°å¢èªè¨€
 
-·s¼W¿é¤Jªk
-CLI¡G
-yum search ¿é¤JªkÃöÁä¦r(¥i¤Wºôgoogle ¬d¸ß)
+æ–°å¢è¼¸å…¥æ³•
+CLIä»‹é¢ï¼šyum search è¼¸å…¥æ³•å¥—ä»¶é—œéµå­—(å¯ä¸Šç¶²google æŸ¥è©¢)
 
-yum install ¿é¤Jªk®M¥ó¦WºÙ
-µn¥X¦Aµn¤J¤~·|¥X²{¤w¦w¸Ëªº¿é¤Jªk®M¥ó
-
+yum install è¼¸å…¥æ³•å¥—ä»¶åç¨±
+ç™»å‡ºå†ç™»å…¥æ‰æœƒå‡ºç¾å·²å®‰è£çš„è¼¸å…¥æ³•å¥—ä»¶
 
 
-±Ò¥ÎcockpitªA°È¡Gsystemctl enable --now cockpit.socket
 
-¬d¸ßcockpitªA°Èª¬ºA¡Gsystemctl status cockpit.socket
-web
-µn¿ı¤è¦¡¡Ghttp://<ip address>:9090
+å•Ÿç”¨cockpitæœå‹™ï¼šsystemctl enable --now cockpit.socket
 
-
-¤¶­±¤Á´«¡Gctrl+alt F2~7(¤å¦r¤¶­±)¡BF1(¹Ï«¬¤¶­±)
-init 3 Ãö³¬X window
-init 5 ±Ò¥ÎX window
+æŸ¥è©¢cockpitæœå‹™ç‹€æ…‹ï¼šsystemctl status cockpit.socket
+webç™»éŒ„æ–¹å¼ï¼šhttps://<ip address>:9090
 
 
-ÀÉ®×¬d¸ß¡Gls -al
-Ãö¾÷«ü¥O¡Gshutdown -h now
+ä»‹é¢åˆ‡æ›ï¼šctrl+alt F2~7(æ–‡å­—ä»‹é¢)ã€F1(åœ–å‹ä»‹é¢)
+init 3 é—œé–‰X window
+init 5 å•Ÿç”¨X window
+
+æŒ‡ä»¤çµæ§‹ â†’ <æŒ‡ä»¤> <åƒæ•¸> <å°è±¡>
+æª”æ¡ˆæŸ¥è©¢ï¼šls -al
+é—œæ©ŸæŒ‡ä»¤ï¼šshutdown -h now

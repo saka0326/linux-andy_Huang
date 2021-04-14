@@ -27,6 +27,10 @@ web 登錄方式：http://<ip address>:9090
 ctrl+alt F2~7(文字介面)、F1(圖型介面)
 init 3 關閉X window
 init 5 啟用X window
+
+指令結構 → <指令> <參數> <對象>
+檔案查詢：ls -al
+關機指令：shutdown -h now
 ### subject
 
 

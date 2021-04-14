@@ -22,7 +22,11 @@ yum install 輸入法套件名稱
 
 啟用cockpit服務：systemctl enable --now cockpit.socket
 查詢cockpit服務狀態：systemctl status cockpit.socket
+web 登錄方式：http://<ip address>:9090
 
+ctrl+alt F2~7(文字介面)、F1(圖型介面)
+init 3 關閉X window
+init 5 啟用X window
 ### subject
 
 

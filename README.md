@@ -8,7 +8,6 @@ Linux  Exercise Project
 
 
 |1|2|3|
-
 |---|---|---|
 |andy|squall45@gmail.com|2021.04.14|
 ### subject

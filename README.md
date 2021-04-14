@@ -20,7 +20,8 @@ yum search 輸入法關鍵字(可上網google)
 yum install 輸入法套件名稱
 登出再登入才會出現已安裝的輸入法套件
 
-
+啟用cockpit服務：systemctl enable --now cockpit.socket
+查詢cockpit服務狀態：systemctl status cockpit.socket
 
 ### subject
 

@@ -1,0 +1,43 @@
+Linux課程
+04-29
+
+-----------------------------
+
+$su <user name> → no login shell
+$su - root → login shell
+
+-----------------------------
+
+忘記root 密碼處理流程：
+
+重新開機時在開機選單中，按「e」編輯開機選單，打上「rd.break」，按ctrl+X 進入開機流程。
+進入root 模式，指令流程
+
+# mount -o remount,rw sysroot
+# chroot sysroot
+# LANG=C
+# passwd root
+# touch /.autorelabel
+# exit
+# mount -o remount,ro sysroot
+# exit
+
+
+-----------------------------
+
+vim
+<i>insert模式
+<y>複製
+<y><y>複製1行
+20<y><y>複製20行
+<P>貼上
+<p>貼下
+<u>恢復上1個動作
+<d>刪掉
+<d><d>刪掉1行
+20<d><d>刪掉20行
+
+<w>寫入存檔
+<q>離開
+<!>強制
+-----------------------------
